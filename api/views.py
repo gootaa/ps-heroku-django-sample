@@ -3,7 +3,7 @@ import coreapi
 from django.shortcuts import render
 from rest_framework.renderers import JSONRenderer
 from rest_framework.response import Response
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 from rest_framework.views import APIView
 
 class RiverViewSet(APIView):
