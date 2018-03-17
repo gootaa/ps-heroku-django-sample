@@ -18,4 +18,5 @@ from api import views
 
 urlpatterns = [
     url(r'^api/v1/rivers$', views.RiverViewSet.as_view()),
+    url(r'^$', views.get_ip, name='index')
 ]
